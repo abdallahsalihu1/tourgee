@@ -30,10 +30,6 @@ export default function Navbar() {
             url: "/feed"
         },
         {
-            label: "Travel Tips",
-            url: "/tips"
-        },
-        {
             label: "Review",
             url: "/review"
         }

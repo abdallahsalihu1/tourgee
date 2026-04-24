@@ -1,9 +1,9 @@
 "use client";
 import { auth } from "@/auth";
-import UploadClient from "./review";
+import ReviewClient from "./review";
 import { redirect } from "next/navigation";
 
-export default async function Upload () {
+export default async function Review () {
     const session = await auth()
 
     if (!session) {
@@ -12,7 +12,7 @@ export default async function Upload () {
     
     return (
         <main>
-            <UploadClient session={session} />
+            <ReviewClient session={session} />
         </main>
     )
 }

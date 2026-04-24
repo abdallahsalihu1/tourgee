@@ -24,7 +24,7 @@ const style = {
 };
 
 
-export default function UploadClient({ session }) {
+export default function ReviewClient({ session }) {
 
     const [sending, setSending] = useState(false)
     const [open, setOpen] = useState(false);

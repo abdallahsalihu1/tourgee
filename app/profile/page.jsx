@@ -1,7 +1,6 @@
 import { auth, signOut } from "@/auth";
 import { redirect } from "next/navigation";
 import { MdLogout } from "react-icons/md";
-import { FaRegPaperPlane } from "react-icons/fa";
 import Update from "./update";
 
 export default async function Profile() {
