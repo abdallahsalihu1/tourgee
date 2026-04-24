@@ -1,4 +1,3 @@
-"use client";
 import { auth } from "@/auth";
 import ReviewClient from "./review";
 import { redirect } from "next/navigation";
